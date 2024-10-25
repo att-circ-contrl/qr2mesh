@@ -1,0 +1,10 @@
+QR code conversion parameters are stored in a structure with the following
+fields:
+
+"qrsize" is the width of the QR code, in _code_ pixels (not image pixels).
+"blockpitch" is the distance between centres of generated mesh code pixels.
+"blockwidth" is the width of generated mesh code pixels.
+"blockheight" is the height of the generated pixels (spanning z=0..height).
+"slabheight" is the height of the slab underneath the pixels (z=-height..0).
+
+(This is the end of the file.)
